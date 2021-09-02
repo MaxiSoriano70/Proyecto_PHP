@@ -1,0 +1,45 @@
+.Menu-Categorias{
+    background: #89072b;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    overflow: hidden;
+}
+.Menu-Categorias nav ul{
+    list-style: none;
+    display: flex;
+    overflow-x: auto;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.Menu-Categorias nav ul li a{
+    text-decoration: none;
+    width: 165px;
+    display: inline-block;
+    line-height: 50px;
+    text-align: center;
+     color: #f8bc01;
+    outline: 1px solid rgb(252, 182, 8, 0.5);
+    padding: 0px 10px;
+}
+.Menu-Categorias nav ul li:hover > a{
+    background: #f8bc01;
+    color: #89072b;
+}
+@media screen and (max-width: 835px){
+    nav{
+        display: block;
+        height: auto;
+    }
+    .Menu-Categorias nav ul{
+        display: block;
+        
+    }
+    .Menu-Categorias nav ul li a{
+        width: 100%;
+    }
+}

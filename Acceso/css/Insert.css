@@ -1,0 +1,149 @@
+/*INSERT*/
+.contenedor-insertar{
+    width: 100%;
+    height: 700px;
+    background-color: #e4e4e4;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    margin-top: 75px;
+    position: relative;
+}
+.contenedor-insertar a, p, input, label{
+    font-size: 14px;
+}
+.contenedor-insertar .f-control{
+    font-size: 14px;
+}
+.insertar{
+    position: relative;
+    background: rgb(255, 176, 55,.75);
+    padding: 20px;
+    height: auto;
+    width: 410px;
+}
+.header-section-insert .icon-user-plus{
+    font-size: 75px
+}
+.form-group-insert{
+    position: relative;
+    height: 55px;
+    border-bottom: 3px solid #89072b;
+    margin-bottom: 10px;
+}
+.form-control-insert, .f-control{
+    position: absolute;
+    top: 25px;
+    background-color: transparent;
+    width: 100%;
+    border: 0;
+    padding: 5px;
+}
+.form-control-insert:focus, .btn.insert:focus{
+    outline: 0;
+}
+.form-control-insert:focus, .btn.cancel:focus{
+    outline: 0;
+}
+.contenedor-insertar .f-control{
+    transition: .5s;
+}
+.form-control-insert:focus + .f-control,
+.form-control-insert:valid + .f-control{
+    top: 0;
+}
+.header-section-insert{
+    text-align: center;
+}
+.escudo{
+    width: 100px;
+    height: 100px; 
+}
+.icon-user-plus{
+    font-size: 50px;
+}
+.form-control-insert{
+    z-index: 2;
+}
+.btn-group{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.Cargar{
+    width: 175px;
+    color: #ffb037;
+    font-size: 20px;
+    background-color: #89072b;
+    padding: 10px;
+    border: 5px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.Cargar:active{
+    box-shadow: 0 2px 20px -2px rgba(0,0,0,.6);
+}
+.Cancelar{
+    width: 175px;
+    color: #ffb037;
+    font-size: 20px;
+    background-color: #89072b;
+    padding: 10px;
+    border: 5px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.Cancelar:active{
+    box-shadow: 0 2px 20px -2px rgba(0,0,0,.6);
+}
+.contenedor-insertar a{
+    color: #89072b;
+}
+@media screen and (max-width: 440px){
+    .insertar{
+        padding: 20px;
+        width: 370px;
+    }
+    .Cargar{
+        width: 160px;
+        font-size: 17px;
+        padding: 8px;
+    }
+    .Cancelar{
+        width: 160px;
+        font-size: 17px;
+        padding: 8px;
+    }
+}
+@media screen and (max-width: 380px){
+    .insertar{
+        padding: 10px;
+        width: 340px;
+    }
+    .Cargar{
+        width: 150px;
+        font-size: 17px;
+        padding: 5px;
+    }
+    .Cancelar{
+        width: 150px;
+        font-size: 17px;
+        padding: 5px;
+    }
+}
+input[type="number"] {
+ margin: 0;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+ -webkit-appearance: none; 
+ margin: 0; 
+}
+
+input[type=number] {
+ -moz-appearance:textfield;
+}

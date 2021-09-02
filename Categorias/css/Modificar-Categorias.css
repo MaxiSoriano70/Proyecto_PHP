@@ -1,0 +1,89 @@
+.Modificar-Categoria{
+	width: 450px;
+	margin: auto;
+	background: #671617;
+	padding: 20px 20px;
+	box-sizing: border-box;
+    position: relative;
+	margin-top: 150px;
+	margin-bottom: 75px;
+	color: white;
+	box-shadow: 7px 13px 37px #0c0203;
+	border-radius: 4px;
+}
+.Modificar-Categoria h2{
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.Modificar-Categoria .Control{
+	width: 100%;
+	background: #f27813;
+	border-radius: 4px;
+	margin-bottom: 16px;
+	border: 1px solid #0c0203;
+	font-size: 15px;
+	color: white;
+}
+.Modificar-Categoria textarea{
+	min-height: 100px;
+	max-height: 200px;
+}
+.Modificar-Categoria .Boton1{
+	width: 100%;
+	background: #f27813;
+	border: none;
+	padding: 10px;
+	color: white;
+	margin: 5px 0;
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+.Modificar-Categoria .Boton1:hover{
+	cursor: pointer;
+	background: #ad0607;
+}
+.Modificar-Categoria .Boton2{
+	width: 100%;
+	background: #ad0607;
+	padding: 10px 98px;
+	color: white;
+	font-size: 16px;
+	margin-bottom: 20px;
+	text-decoration: none;
+}
+.Modificar-Categoria .Boton2:hover{
+	cursor: pointer;
+	background: #f27813;
+}
+@media(max-width:470px){
+	.Modificar-Categoria{
+		width: 380px;
+		background: #671617;
+	}
+	.Modificar-Categoria .Boton2{
+		padding: 10px 63px;
+	}
+}
+@media(max-width:390px){
+	.Modificar-Categoria{
+		width: 340px;
+		background: #671617;
+	}
+	.Modificar-Categoria .Boton2{
+		padding: 10px 43px;
+	}
+}
+input[type="number"] {
+ margin: 0;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+ -webkit-appearance: none; 
+ margin: 0; 
+}
+
+input[type=number] {
+ -moz-appearance:textfield;
+}

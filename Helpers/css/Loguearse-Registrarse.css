@@ -1,0 +1,76 @@
+.Loguearse-Registrarse{
+	width: 700px;
+	height: auto;
+	display: block;
+	margin: 100px auto;
+	background-color: #fff;
+	overflow: hidden;
+	border-radius: 25px;
+}
+.Icono-L{
+	width: 100%;
+	height: 150px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 5px 10px;
+}
+.icon-warning{
+	font-size: 75px;
+	color: red;
+}
+.Atencion-L{
+	width: 100%;
+	height: auto;
+	font-size: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 5px 10px;
+}
+.Mensaje-L{
+	width: 100%;
+	height: auto;
+	font-size: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 20px 50px;
+}
+.Mensaje-L a{
+	text-decoration: none;
+	color: #89072b;
+}
+.Mensaje-L a:hover{
+	text-decoration: none;
+	color: #bb8690;
+}
+@media screen and (max-width: 730px){
+    .Loguearse-Registrarse{
+		width: 450px;
+	}
+	.Atencion-L{
+		font-size: 25px;
+	}
+	.Mensaje-L{
+		font-size: 16px;
+		padding: 10px 10px;
+	}
+}
+@media screen and (max-width: 500px){
+	.Loguearse-Registrarse{
+		width: 330px;
+	}
+	.Icono-L{
+		height: 100px;
+	}
+	.Atencion-L{
+		font-size: 20px;
+	}
+	.Mensaje-L{
+		font-size: 14px;
+	}
+	.icon-warning{
+		font-size: 50px;
+	}
+}

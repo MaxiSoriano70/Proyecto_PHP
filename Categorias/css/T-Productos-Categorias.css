@@ -1,0 +1,90 @@
+.Titulo-Tabla-Productos-Categorias{
+	margin-top: 75px;
+	width: 100%;
+	height: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 5px 20px;
+}
+.Tabla-Categorias-Producto{
+	padding: 25px 10px;
+}
+.Tabla-Categorias-Producto .Marcar-Producto{
+	margin-left: 40px;
+	margin-right: 40px;
+}
+.Tabla-Categorias-Producto table, th, td{
+	border: 3px solid #89072b;
+	border-collapse: collapse;
+	background: rgb(246, 217, 109, 0.5);
+}
+.Tabla-Categorias-Producto th{
+	padding: 5px 10px;
+	text-align: center;
+}
+.Tabla-Categorias-Producto td{
+	padding: 5px 10px;
+}
+.Botones-Categorias-Productos{
+	width: 100%;
+	height: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+@media(max-width: 630px){
+	.Tabla-Categorias-Producto table{
+		width: 100%;
+	}
+	.Tabla-Categorias-Producto table, th, td{
+		border: none;
+		background: none;
+	}
+	.Tabla-Categorias-Producto table tr{
+		display: flex;
+		flex-direction: column;
+		border: 1px solid #2F2F2F;
+		padding: 5px 10px;
+		margin-bottom: 15px;
+		background: rgb(246, 217, 109, 0.5);
+	}
+	.Tabla-Categorias-Producto table thead{
+		display: none;
+	}
+	.Tabla-Categorias-Producto table td[data-titulo]{
+		display: flex;
+	}
+	.Tabla-Categorias-Producto table td[data-titulo]::before{
+		content: attr(data-titulo);
+		width: 100px;
+	}
+}
+@media(max-width: 480px){
+	.Botones-Categorias-Productos{
+		display: block;
+		border: 2px solid blue;
+	}
+	.Boton-C-T{
+		width: 100%;
+		height: auto;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin: 10px 0px;
+		border: 2px solid green;
+	}
+}
+@media(max-width: 400px){
+	.Titulo-Tabla-Productos-Categorias h2{
+		font-size: 30px;
+	}
+	.Tabla-Categorias-Producto table tr{
+		font-size: 16px;
+	}
+	.Tabla-Categorias-Producto table tr{
+		padding: 5px 5px;
+	}
+}

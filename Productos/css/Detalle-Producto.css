@@ -1,0 +1,253 @@
+.detalle-producto{
+	overflow: hidden;
+	justify-content: center;
+	height: auto;
+	display: flex;
+	padding: 20px 10px;
+}
+.contenedor-slider{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 600px;
+	height: 600px;
+	border-radius: 5px;
+	box-shadow: 1px 1px 4px 2px rgba(0,0,0, .2);
+}
+.descripcion{
+	position: relative;
+	width: 600px;
+	height: 600px;
+	background: #ffb037;
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 1px 1px 4px 2px rgba(0,0,0, .2);
+}
+.Titulo-D{
+	width: 100%;
+	height: auto;
+	font-size: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+.Codigo-D{
+	width: 100%;
+	height: auto;
+	font-size: 16px;
+	display: flex;
+	align-items: center;
+	margin: 5px 0px;
+}
+.Cod-D{
+	margin-right: 10px;
+}
+.Descr-D{
+	width: 100%;
+	height: auto;
+	font-size: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 10px 0px;
+}
+.Precio-D{
+	width: 100%;
+	height: auto;
+	font-size: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.Pre-D{
+	margin-right: 10px;
+}
+.Tarjeta-D{
+	width: 100%;
+	height: auto;
+	font-size: 18px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.icon-credit-card{
+	margin-right: 10px;
+}
+.Tarjetas-D{
+	width: 100%;
+	height: auto;
+	font-size: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.icon-visa{
+	font-size: 35px;
+	margin-right: 5px;
+}
+.icon-mastercard{
+	font-size: 35px;
+	margin-left: 5px;
+}
+.Cantidad-D{
+	width: 100%;
+	height: auto;
+	font-size: 18px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 10px 0px;
+}
+.Cant-Text{
+	width: 50%;
+	height: auto;
+	font-size: 18px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.C-Text{
+	margin-right: 10px;
+}
+.Stock-D{
+	width: 50%;
+	height: auto;
+	font-size: 18px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.Stock-Text{
+	margin-right: 10px;
+}
+.Botones{
+	width: 100%;
+	height: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 10px 0px;
+}
+.Añadir-Carrito{
+	font-size: 18px;
+    text-decoration: none;
+    color: #ffb037;
+    background-color: #89072b;
+    border: 0;
+    padding: 10px 10px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.Añadir-Carrito:hover{
+    color: white;
+    background-color: #2F2F2F;
+    text-decoration: none;
+}
+.Ir-Carrito{
+	font-size: 18px;
+    text-decoration: none;
+    color: #ffb037;
+    background-color: #89072b;
+    border: 0;
+    padding: 10px 10px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.Ir-Carrito:hover{
+    color: white;
+    background-color: #2F2F2F;
+    text-decoration: none;
+}
+.Seguir-Comprando{
+	font-size: 18px;
+    text-decoration: none;
+    color: #ffb037;
+    background-color: #89072b;
+    border: 0;
+    padding: 10px 10px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.Seguir-Comprando:hover{
+    color: white;
+    background-color: #2F2F2F;
+    text-decoration: none;
+}
+@media (max-width: 1240px){
+	.detalle-producto{
+		display: block;
+		height: auto;
+	}
+	.contenedor-slider{
+		margin-right: auto;
+		margin-left: auto;
+	}
+	.descripcion{
+		margin-right: auto;
+		margin-left: auto;
+	}
+}
+@media (max-width: 630px){
+	.contenedor-slider{
+		width: 400px;
+		height: auto;
+	}
+	.descripcion{
+		width: 400px;
+		height: auto;
+	}
+	.Cantidad-D{
+		display: block;
+	}
+	.Cant-Text{
+		width: 100%;
+	}
+	.Stock-D{
+		width: 100%;
+	}
+	.Titulo-D{
+		font-size: 25px;
+	}
+	.Codigo-D{
+		font-size: 15px;
+	}
+	.Descr-D{
+		font-size: 18px;
+	}
+	.Precio-D{
+		font-size: 18px;
+	}
+	.Tarjetas-D{
+		font-size: 18px;
+	}
+	.Cant-Text{
+		font-size: 16px;
+	}
+	.Stock-D{
+		font-size: 16px;
+	}
+}
+@media (max-width: 360px){
+	.contenedor-slider{
+		width: 340px;
+		height: auto;
+	}
+	.descripcion{
+		width: 340px;
+		height: auto;
+	}
+}
+input[type="number"] {
+ margin: 0;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+ -webkit-appearance: none; 
+ margin: 0; 
+}
+
+input[type=number] {
+ -moz-appearance:textfield;
+}

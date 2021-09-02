@@ -1,0 +1,83 @@
+.Titulo-Tabla-Productos{
+	margin-top: 75px;
+	width: 100%;
+	height: auto;
+	display: block;
+	padding: 5px 20px;
+}
+.Titulo{
+	width: 100%;
+	height: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 10px 0px;
+}
+.Boton-A{
+	width: 100%;
+	height: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 10px 0px;
+}
+.Tabla-Productos{
+	padding: 25px 10px;
+}
+.Tabla-Productos table, th, td{
+	border: 3px solid #89072b;
+	border-collapse: collapse;
+	background: rgb(246, 217, 109, 0.5);
+}
+.Tabla-Productos th{
+	padding: 5px 10px;
+	text-align: center;
+}
+.Tabla-Productos td{
+	padding: 5px 10px;
+}
+.Botones-U{
+	display: flex;
+}
+@media(max-width: 1060px){
+	.Tabla-Productos table{
+		width: 100%;
+	}
+	.Tabla-Productos table, th, td{
+		border: none;
+		background: none;
+	}
+	.Tabla-Productos table tr{
+		display: flex;
+		flex-direction: column;
+		border: 1px solid #2F2F2F;
+		padding: 5px 10px;
+		margin-bottom: 20px;
+		background: rgb(246, 217, 109, 0.5);
+	}
+	.Tabla-Productos table thead{
+		display: none;
+	}
+	.Tabla-Productos table td[data-titulo]{
+		display: flex;
+	}
+	.Tabla-Productos table td[data-titulo]::before{
+		content: attr(data-titulo);
+		width: 100px;
+	}
+	.Botones-U{
+		justify-content: center;
+		align-items: center;
+	}
+}
+@media(max-width: 400px){
+	.Titulo h2{
+		font-size: 30px;
+	}
+	.Tabla-Productos table tr{
+		font-size: 16px;
+	}
+	.Tabla-Productos table tr{
+		padding: 5px 5px;
+	}
+}

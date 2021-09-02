@@ -1,0 +1,102 @@
+.Agregar-Categoria{
+	width: 450px;
+	margin: auto;
+	background: #671617;
+	padding: 20px 20px;
+	box-sizing: border-box;
+    position: relative;
+	margin-top: 150px;
+	margin-bottom: 75px;
+	color: white;
+	box-shadow: 7px 13px 37px #0c0203;
+	border-radius: 4px;
+}
+.Agregar-Categoria h2{
+	text-align: center;
+	margin-bottom: 10px;
+}
+.Agregar-Categoria .Control{
+	width: 100%;
+	background: #f27813;
+	border-radius: 4px;
+	margin-bottom: 16px;
+	border: 1px solid #0c0203;
+	font-size: 15px;
+	color: white;
+}
+.Agregar-Categoria textarea{
+	min-height: 100px;
+	max-height: 200px;
+}
+.Agregar-Categoria .Boton1{
+	width: 100%;
+	background: #f27813;
+	border: none;
+	padding: 10px;
+	color: white;
+	margin: 5px 0;
+	font-size: 16px;
+	margin-bottom: 7px;
+}
+.Agregar-Categoria .Boton1:hover{
+	cursor: pointer;
+	background: #ad0607;
+}
+.Agregar-Categoria .Boton2{
+	width: 100%;
+	background: #ad0607;
+	border: none;
+	padding: 10px;
+	color: white;
+	margin: 5px 0;
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+.Agregar-Categoria .Boton2:hover{
+	cursor: pointer;
+	background: #f27813;
+}
+.Agregar-Categoria .Boton3{
+	width: 100%;
+	background: #f27813;
+	padding: 10px 98px;
+	color: white;
+	font-size: 16px;
+	margin-bottom: 20px;
+	text-decoration: none;
+}
+.Agregar-Categoria .Boton3:hover{
+	cursor: pointer;
+	background: #ad0607;
+	}
+@media(max-width:470px){
+	.Agregar-Categoria{
+		width: 380px;
+		background: #671617;
+	}
+	.Agregar-Categoria .Boton3{
+		padding: 10px 63px;
+	}
+}
+@media(max-width:390px){
+	.Agregar-Categoria{
+		width: 340px;
+		background: #671617;
+	}
+	.Agregar-Categoria .Boton3{
+		padding: 10px 43px;
+	}
+}
+input[type="number"] {
+ margin: 0;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+ -webkit-appearance: none; 
+ margin: 0; 
+}
+
+input[type=number] {
+ -moz-appearance:textfield;
+}

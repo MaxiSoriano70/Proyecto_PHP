@@ -1,0 +1,339 @@
+.Carrito{
+	overflow: hidden;
+	height: auto;
+	background-color: #e4e4e4;
+	display: flex;
+	justify-content: center;
+	padding: 20px 10px;
+}
+.Tabla-Carrito{
+	width: 800px;
+	height: auto;
+	display: block;
+	padding: 20px;
+	border-radius: 5px;
+	margin-bottom: 25px;
+}
+.Titulo-T-C{
+	width: 100%;
+	height: auto;
+	font-size: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.IMG-C{
+	width: 75px;
+	height: 75px;
+}
+.Tabla-Productos{
+	padding: 20px 0px;
+}
+.Tabla-Productos table, th{
+	border: 2px solid #89072b;
+	border-collapse: collapse;
+	background: #c0c0c0;
+}
+.Tabla-Productos td{
+	border: 2px solid #89072b;
+	border-collapse: collapse;
+	background: #dcdcdc;
+	text-align: center;
+}
+.Tabla-Productos th{
+	padding: 5px 10px;
+	text-align: center;
+}
+.Tabla-Productos td{
+	padding: 5px 10px;
+}
+.Botones-U{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.Cont-V{
+	width: 100%;
+	height: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.Cont-V a{
+	margin: 10px;
+}
+.Resumen-de-Compra{
+	position: relative;
+	width: 450px;
+	height: 600px;
+	background: #bcbbb9;
+	padding: 20px;
+	border-radius: 5px;
+}
+.Titulo-R{
+	width: 100%;
+	height: auto;
+	font-size: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.Resumen-R{
+	width: 100%;
+	height: auto;
+	font-size: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 5px 0px;
+}
+.Res-R{
+	margin-right: 5px;
+}
+.Producto-R{
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.Codigo-R{
+	width: 100%;
+	height: auto;
+	font-size: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 10px 0px;
+}
+.Input-R{
+	width: 100%;
+	height: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.Input-R .Input-C{
+	width: 100%;
+	padding: 10px;
+	text-align: center;
+	background-color: #e4e4e4;
+	border-radius: 15px;
+	border: 1px solid #ffb037;
+}
+.Pre-D{
+	margin-right: 10px;
+}
+.Boton-Aplicar-R{
+	width: 100%;
+	height: auto;
+	margin: 10px 0px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.Aplicar-R{
+	font-size: 20px;
+    text-decoration: none;
+    color: #ffb037;
+    background-color: #89072b;
+    border: 0;
+    padding: 5px 10px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.Aplicar-R:hover{
+    color: white;
+    background-color: #2F2F2F;
+    text-decoration: none;
+}
+.Entreg-R{
+	width: 100%;
+	height: auto;
+	font-size: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 10px;
+}
+.Total-C-R{
+	width: 100%;
+	height: auto;
+	font-size: 25px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 5px 0px;
+}
+.Total-P-R{
+	width: 100%;
+	height: auto;
+	font-size: 18px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 5px 0px;
+}
+.T-P-R{
+	margin-right: 10px;
+}
+.Total-CA-R{
+	width: 100%;
+	height: auto;
+	font-size: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 5px 0px;
+}
+.T-CA-R{
+	margin-right: 10px;
+}
+.Botones{
+	width: 100%;
+	height: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 10px 0px;
+}
+.Proceder-Pago{
+	font-size: 18px;
+    text-decoration: none;
+    color: #ffb037;
+    background-color: #89072b;
+    border: 0;
+    padding: 10px 10px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.Proceder-Pago:hover{
+    color: white;
+    background-color: #2F2F2F;
+    text-decoration: none;
+}
+.Seguir-Comprando{
+	font-size: 18px;
+    text-decoration: none;
+    color: #ffb037;
+    background-color: #89072b;
+    border: 0;
+    padding: 10px 10px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.Seguir-Comprando:hover{
+    color: white;
+    background-color: #2F2F2F;
+    text-decoration: none;
+}
+@media (max-width: 1210px){
+	.Carrito{
+		display: block;
+		height: auto;
+	}
+	.Tabla-Carrito{
+		margin-right: auto;
+		margin-left: auto;
+		padding: 10px;
+	}
+	.Resumen-de-Compra{
+		margin-right: auto;
+		margin-left: auto;
+	}
+}
+@media(max-width: 820px){
+	.Tabla-Carrito{
+		width: 450px;
+		height: auto;
+	}
+	.Tabla-Productos table{
+		width: 100%;
+	}
+	.Tabla-Productos table, th{
+		border: none;
+		background: none;
+	}
+	.Tabla-Productos td{
+		border: none;
+		background: none;
+	}
+	.Tabla-Productos table tr{
+		display: flex;
+		flex-direction: column;
+		border: 1px solid #2F2F2F;
+		padding: 5px 10px;
+		margin-bottom: 20px;
+		background: #dcdcdc;
+	}
+	.Tabla-Productos table thead{
+		display: none;
+	}
+	.Tabla-Productos table td[data-titulo]{
+		display: flex;
+	}
+	.Tabla-Productos table td[data-titulo]::before{
+		content: attr(data-titulo);
+		width: 100px;
+	}
+	.Botones-U{
+		justify-content: center;
+		align-items: center;
+	}
+}
+@media (max-width: 470px){
+	.Tabla-Carrito{
+		width: 340px;
+		height: auto;
+	}
+	.Resumen-de-Compra{
+		width: 340px;
+		height: auto;
+	}
+	.Titulo-T-C{
+		font-size: 25px;
+	}
+	.Titulo-R{
+		font-size: 23px;
+	}
+	.Resumen-R{
+		font-size: 16px;
+	}
+	.Codigo-R{
+		font-size: 16px;
+	}
+	.Input-R input{
+		padding: 5px;
+	}
+	.Aplicar-R{
+		font-size: 16px;
+	}
+	.Entreg-R{
+		font-size: 16px;
+	}
+	.Total-C-R{
+		font-size: 20px;
+	}
+	.Total-P-R{
+		font-size: 16px;
+	}
+	.Total-CA-R{
+		font-size: 18px;
+	}
+	.Proceder-Pago{
+		font-size: 16px;
+	}
+	.Seguir-Comprando{
+		font-size: 16px;
+	}
+}
+input[type="number"] {
+ margin: 0;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+ -webkit-appearance: none; 
+ margin: 0; 
+}
+
+input[type=number] {
+ -moz-appearance:textfield;
+}

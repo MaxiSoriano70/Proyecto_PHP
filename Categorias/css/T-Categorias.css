@@ -1,0 +1,83 @@
+.Titulo-Tabla-Categorias{
+	margin-top: 75px;
+	width: 100%;
+	height: auto;
+	display: block;
+	padding: 5px 20px;
+}
+.Titulo{
+	width: 100%;
+	height: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 10px 0px;
+}
+.Boton-A{
+	width: 100%;
+	height: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 10px 0px;
+}
+.Tabla-Categorias{
+	padding: 25px 10px;
+}
+.Tabla-Categorias table, th, td{
+	border: 3px solid #89072b;
+	border-collapse: collapse;
+	background: rgb(246, 217, 109, 0.5);
+}
+.Tabla-Categorias th{
+	padding: 5px 10px;
+	text-align: center;
+}
+.Tabla-Categorias td{
+	padding: 5px 10px;
+}
+.Botones-U{
+	display: flex;
+}
+@media(max-width: 1060px){
+	.Tabla-Categorias table{
+		width: 100%;
+	}
+	.Tabla-Categorias table, th, td{
+		border: none;
+		background: none;
+	}
+	.Tabla-Categorias table tr{
+		display: flex;
+		flex-direction: column;
+		border: 1px solid #2F2F2F;
+		padding: 5px 10px;
+		margin-bottom: 20px;
+		background: rgb(246, 217, 109, 0.5);
+	}
+	.Tabla-Categorias table thead{
+		display: none;
+	}
+	.Tabla-Categorias table td[data-titulo]{
+		display: flex;
+	}
+	.Tabla-Categorias table td[data-titulo]::before{
+		content: attr(data-titulo);
+		width: 100px;
+	}
+	.Botones-U{
+		justify-content: center;
+		align-items: center;
+	}
+}
+@media(max-width: 400px){
+	.Titulo h2{
+		font-size: 30px;
+	}
+	.Tabla-Categorias table tr{
+		font-size: 16px;
+	}
+	.Tabla-Categorias table tr{
+		padding: 5px 5px;
+	}
+}

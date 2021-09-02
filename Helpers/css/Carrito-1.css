@@ -1,0 +1,132 @@
+.Carrito{
+	margin-top: 75px;
+	display: flex;
+	width: 100%;
+	height: auto;
+	padding: 20px 50px;
+}
+.Tabla-Productos{
+	width: 70%;
+	height: 100%;
+	overflow: hidden;
+	border-radius: 30px;
+	margin-right: 30px;
+}
+.iCantidad{
+	width: 50px !important;
+	height: 30px;
+	color: black;
+}
+.IMG-C{
+	width: 50px;
+	height: 50px;
+}
+.Botones-Acciones{
+	width: 100%;
+	height: auto;
+	background-color: #e4e4e4;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.Vaciar{
+	font-size: 18px;
+	padding: 10px 15px;
+	margin: 10px 15px;
+}
+.Actualizar{
+	font-size: 18px;
+	padding: 10px 15px;
+	margin: 10px 15px;
+}
+.Resumen{
+	width: 25%;
+	height: 475px;
+	display: block;
+	background-color: #e4e4e4;
+	border-radius: 30px;
+	padding: 20px 10px;
+}
+.Titulo-C{
+	width: 100%;
+	height: auto;
+	font-size: 30PX;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-bottom: 2px solid black;
+}
+.Subtotal{
+	width: 100%;
+	height: auto;
+	padding: 10px 10px;
+	display: block;
+	border-bottom: 2px solid black;
+}
+.Subtotal-a{
+	width: 100%;
+	height: auto;
+	font-size: 20px;
+	padding: 10px 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.Subtotal-b{
+	width: 100%;
+	height: auto;
+	font-size: 20px;
+	padding: 10px 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.Total{
+	width: 100%;
+	height: auto;
+	padding: 10px 10px;
+	display: block;
+	border-bottom: 2px solid black;
+}
+.Total-a{
+	width: 100%;
+	height: auto;
+	font-size: 20px;
+	padding: 10px 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.Total-b{
+	width: 100%;
+	height: auto;
+	font-size: 20px;
+	padding: 10px 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.Boton-Pagar{
+	width: 100%;
+	height: auto;
+	padding: 10px 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.Btn-Pag{
+	font-size: 20px;
+	padding: 10px 50px;
+}
+.Boton-Seguir{
+	width: 100%;
+	height: auto;
+	padding: 10px 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.Btn-Seg{
+	font-size: 20px;
+	padding: 10px 25px;
+}

@@ -1,0 +1,154 @@
+/*FOOTER*/
+.footer-contenedor{
+    overflow: hidden;
+    background-color: #2F2F2F;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+}
+.Patrocinadores-Principales{
+    width: 385px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Patrocinadores-Secundarios{
+    width: 100%;
+    height: 80px;
+    overflow: hidden;
+}
+.Patrocinadores-Secundarios-1{
+    position: absolute;
+    right: 50%;
+    width: 310px;
+}
+.Patrocinadores-Secundarios-2{
+    position: absolute;
+    left: 50%;
+    width: 310px;
+}
+/*Patocinadores-Secundarios*/
+.Logo-Principales1 {
+    width: 125px;
+    height: 100px;
+}
+.Logo-Principales2 {
+    width: 125px;
+    height: 100px;
+}
+.Logo-Principales3 {
+    width: 125px;
+    height: 100px;
+}
+/*Patocinadores-Secundarios*/
+.Logo-Secundarios1 {
+    width: 100px;
+    height: 75px;
+}
+.Logo-Secundarios2 {
+    width: 100px;
+    height: 75px;
+}
+.Logo-Secundarios3 {
+    width: 100px;
+    height: 75px;
+}
+.Logo-Secundarios4 {
+    width: 100px;
+    height: 75px;
+}
+.Logo-Secundarios5 {
+    width: 100px;
+    height: 75px;
+}
+.Logo-Secundarios6 {
+    width: 100px;
+    height: 75px;
+}
+.Logo-Pie{
+    width: 420px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Logo-Pie .Logo-Roma{
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: auto;
+}
+.Copyright{
+    text-align: center;
+    color: white;
+}
+/*CAMBIO DE TAMAÑO DE PANTALLA*/
+@media(max-width:770px){
+    .footer-conteiner{
+        overflow: hidden;
+        width: 100%;
+        padding: 10px;
+    }
+    .Patrocinadores-Secundarios{
+        width: 100%;
+        height: 150px;
+    }
+    .Patrocinadores-Secundarios-1{
+        right: 0%;
+        position: relative;
+        width: 310px;
+        height: 75px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .Patrocinadores-Secundarios-2{
+        left: 0%;
+        position: relative;
+        width: 310px;
+        height: 75px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media handheld, screen and (min-width: 360px) and (max-width: 460px){
+    .footer-contenedor{
+        overflow: hidden;
+        width: 100%;
+        padding: 10px;
+    }
+    .Logo-Principales1 {
+        width: 115px;
+        height: 90px;
+    }
+    .Logo-Principales2 {
+        width: 115px;
+        height: 90px;
+    }
+    .Logo-Principales3 {
+        width: 115px;
+        height: 90px;
+    }
+    .Patrocinadores-Secundarios{
+        width: 100%;
+        height: 150px;
+    }
+    .Patrocinadores-Secundarios-1{
+        right: 0%;
+        position: relative;
+        width: 310px;
+        height: 75px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .Patrocinadores-Secundarios-2{
+        left: 0%;
+        position: relative;
+        width: 310px;
+        height: 75px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .Logo-Pie{
+        width: 350px;
+        height: 155px;
+    }
+}

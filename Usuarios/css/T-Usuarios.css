@@ -1,0 +1,84 @@
+.Titulo-Tabla-Usuarios{
+	margin-top: 75px;
+	width: 100%;
+	height: auto;
+	display: block;
+	padding: 5px 20px;
+}
+.Titulo{
+	width: 100%;
+	height: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 10px 0px;
+}
+.Boton-A{
+	width: 100%;
+	height: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 10px 0px;
+}
+.Tabla-Usuarios{
+	padding: 25px 10px;
+}
+.Tabla-Usuarios table, th, td{
+	border: 3px solid #89072b;
+	border-collapse: collapse;
+	background: rgb(246, 217, 109, 0.5);
+}
+.Tabla-Usuarios th{
+	padding: 5px 10px;
+	text-align: center;
+}
+.Tabla-Usuarios td{
+	padding: 5px 10px;
+}
+.Botones-U{
+	display: flex;
+}
+@media(max-width: 1060px){
+	.Tabla-Usuarios table{
+		width: 100%;
+	}
+	.Tabla-Usuarios table, th, td{
+		border: none;
+		background: none;
+	}
+	.Tabla-Usuarios table tr{
+		display: flex;
+		flex-direction: column;
+		border: 1px solid #2F2F2F;
+		padding: 5px 10px;
+		margin-bottom: 20px;
+		background: rgb(246, 217, 109, 0.5);
+	}
+	.Tabla-Usuarios table thead{
+		display: none;
+	}
+	.Tabla-Usuarios table td[data-titulo]{
+		display: flex;
+	}
+	.Tabla-Usuarios table td[data-titulo]::before{
+		content: attr(data-titulo);
+		width: 100px;
+	}
+	.Botones-U{
+		justify-content: center;
+		align-items: center;
+	}
+}
+@media(max-width: 400px){
+	.Tabla-Usuarios table tr{
+		font-size: 16px;
+	}
+	.Tabla-Usuarios table tr{
+		padding: 5px 5px;
+	}
+	.Tabla-Usuarios table td[data-titulo]::before{
+		content: attr(data-titulo);
+		width: 75px;
+	}
+}

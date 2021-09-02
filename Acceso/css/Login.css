@@ -1,0 +1,249 @@
+.Logo{
+    display: flex;
+    margin-top: 75px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 110px;
+    background-color: #e4e4e4;
+}
+.escudo{
+    width: 100px;
+    height: 100px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.Titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+    background-color: #e4e4e4;
+}
+.Card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 604px;
+    width: 100%;
+    background-color: #e4e4e4;
+    padding: 20px;
+}
+.Card-Contenedor{
+    display: flex;
+    width: 1000px;
+    height: auto;
+    background-color: #e4e4e4;
+    box-shadow: 1px 1px 4px 2px rgba(0,0,0,.2);
+}
+/*LOGIN*/
+.Login-Contenedor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    border-right: 2px solid black;
+}
+.login a, p, input{
+    font-size: 14px;
+}
+.login .f-control{
+    font-size: 14px;
+}
+.login{
+    position: relative;
+    background-color: rgb(255, 176, 55,.75);
+    padding: 20px;
+    height: auto;
+    width: 100%;
+}
+.header-section{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.icon-user{
+    font-size: 75px;
+}
+.texto{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.texto h2{
+    text-align: center;
+}
+.texto p{
+    font-size: 15px;
+}
+.form-group{
+    position: relative;
+    height: 55px;
+    border-bottom: 3px solid #89072b;
+    margin-bottom: 20px;
+}
+.form-control, .f-control{
+    position: absolute;
+    top: 25px;
+    background-color: transparent;
+    width: 100%;
+    border: 0;
+    padding: 5px;
+}
+.form-control{
+    z-index: 2;
+}
+.form-control:focus, .btn.login:focus{
+    outline: 0;
+}
+.form-group .f-control{
+    transition: .5s;
+}
+.form-control:focus + .f-control,
+.form-control:valid + .f-control{
+    top: 0;
+}
+.remember-group{
+    position: relative;
+    margin-bottom: 20px;
+}
+.remember-me{
+    position: absolute;
+    top: 0;
+}
+.btn-login{
+    color: #ffb037;
+    background-color: #89072b;
+    border: 0;
+    padding: 8px 50px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.btn-login:active{
+    box-shadow: 0 2px 20px -2px rgba(0,0,0,.6);
+}
+.forgot-password{
+    padding: 8px;
+    float: right;
+}
+.clear{
+    clear: both;
+}
+.nota{
+    padding: 5px;
+    margin-top: 5px;
+    background-color: rgb(255, 144, 55,.75);
+}
+.nota p{
+    font-size: 15px;
+}
+.Login-Contenedor a{
+    color: #89072b;
+}
+.mensaje-login{
+    bottom: 5px;
+    margin-top: 5px;
+    width: 100%;
+    height: auto;
+    padding: 3px 10px;
+}
+.mensaje-login>p{
+    margin: 0;
+    text-align: center;
+}
+/*Registro*/
+.Registrarse{
+    padding: 20px;
+    position: relative;
+}
+.header-Registro{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.icon-user-plus{
+    font-size: 75px;
+}
+.texto-Registro{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.texto-Registro h2{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.texto-Registro p{
+    font-size: 15px;
+}
+.nota-Registro{
+    padding: 5px;
+    margin-top: 15px;
+    background-color: rgb(187, 187, 188);
+}
+.nota-Registro p{
+    font-size: 15px;
+}
+.Boton-Registro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+.btn-Registro{
+    text-decoration: none;
+    color: #ffb037;
+    background-color: #89072b;
+    border: 0;
+    padding: 8px 50px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.btn-Registro:hover{
+    text-decoration: none;
+    color: #89072b;
+    background-color: #ffb037;
+}
+@media(max-width:890px){
+    .escudo{
+        width: 75px;
+        height: 75px; 
+    }
+    .Contenedor{
+        display: block;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .Card-Contenedor{
+        display: block;
+        width: 100%;
+    }
+    .Login-Contenedor{
+        border-right: 0;
+    }
+}
+@media(max-width:580px){
+    .Titulo h1{
+        font-size: 35px;
+    }
+}
+@media(max-width:520px){
+    .Titulo h1{
+        font-size: 22px;
+    }
+}
+@media(max-width:430px){
+    .btn-login{
+        padding: 8px 25px;
+    }
+}
+@media(max-width:375px){
+    .texto h2{
+        font-size: 22px;
+    }
+    .texto-Registro h2{
+        font-size: 22px;
+    }
+    .btn-login{
+        padding: 8px 15px;
+    }
+}
